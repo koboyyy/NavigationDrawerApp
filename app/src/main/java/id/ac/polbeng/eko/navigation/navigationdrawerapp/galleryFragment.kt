@@ -1,15 +1,16 @@
-package id.ac.polbeng.asmira.navigation.navigationdrawerapp
+package id.ac.polbeng.eko.navigation.navigationdrawerapp
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import id.ac.polbeng.asmira.navigation.navigationdrawerapp.databinding.FragmentHomeBinding
+import id.ac.polbeng.eko.navigation.navigationdrawerapp.databinding.FragmentGalleryBinding
 
-class HomeFragment : Fragment() {
+class GalleryFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentGalleryBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,12 +18,12 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        val galleryViewModel =
+            ViewModelProvider(this).get(GalleryViewModel::class.java)
+        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
-        homeViewModel.text_home.observe(viewLifecycleOwner) {
-            binding.textHome.text = it
+        galleryViewModel.text_gallery.observe(viewLifecycleOwner) {
+            binding.textGallery.text = it
         }
         return root
     }

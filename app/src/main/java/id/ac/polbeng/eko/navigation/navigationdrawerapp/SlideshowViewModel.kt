@@ -1,4 +1,4 @@
-package id.ac.polbeng.asmira.navigation.navigationdrawerapp
+package id.ac.polbeng.eko.navigation.navigationdrawerapp
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package id.ac.polbeng.asmira.navigation.navigationdrawerapp
+package id.ac.polbeng.eko.navigation.navigationdrawerapp
 
 import org.junit.Test
 

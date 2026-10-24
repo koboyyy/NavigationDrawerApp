@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "id.ac.polbeng.asmira.navigation.navigationdrawerapp"
+    namespace = "id.ac.polbeng.eko.navigation.navigationdrawerapp"
     compileSdk {
         version = release(37) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "id.ac.polbeng.asmira.navigation.navigationdrawerapp"
+        applicationId = "id.ac.polbeng.eko.navigation.navigationdrawerapp"
         minSdk = 27
         targetSdk = 36
         versionCode = 1

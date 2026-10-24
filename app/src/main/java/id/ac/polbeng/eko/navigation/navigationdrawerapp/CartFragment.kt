@@ -5,8 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import id.ac.polbeng.asmira.navigation.navigationdrawerapp.databinding.FragmentCartBinding
+import id.ac.polbeng.eko.navigation.navigationdrawerapp.databinding.FragmentCartBinding
 
 class CartFragment : Fragment() {
 

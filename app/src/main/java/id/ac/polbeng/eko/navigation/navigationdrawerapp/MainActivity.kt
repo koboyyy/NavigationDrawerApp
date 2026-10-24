@@ -1,4 +1,4 @@
-package id.ac.polbeng.asmira.navigation.navigationdrawerapp
+package id.ac.polbeng.eko.navigation.navigationdrawerapp
 
 
 import android.os.Bundle
@@ -14,7 +14,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import de.hdodenhof.circleimageview.CircleImageView
-import id.ac.polbeng.asmira.navigation.navigationdrawerapp.databinding.ActivityMainBinding
+import id.ac.polbeng.eko.navigation.navigationdrawerapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding

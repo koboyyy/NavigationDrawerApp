@@ -1,4 +1,4 @@
-package id.ac.polbeng.asmira.navigation.navigationdrawerapp
+package id.ac.polbeng.eko.navigation.navigationdrawerapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

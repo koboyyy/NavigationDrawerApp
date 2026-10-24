@@ -1,8 +1,8 @@
-package id.ac.polbeng.asmira.navigation.navigationdrawerapp
+package id.ac.polbeng.eko.navigation.navigationdrawerapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import id.ac.polbeng.asmira.navigation.navigationdrawerapp.databinding.ActivitySubwayBinding
+import id.ac.polbeng.eko.navigation.navigationdrawerapp.databinding.ActivitySubwayBinding
 
 class SubwayActivity : AppCompatActivity() {
 
